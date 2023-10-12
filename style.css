@@ -163,6 +163,7 @@ span {
     box-shadow: none;
 }
 
+/* About Section */
 .About {
     display: flex;
     justify-content: center;
@@ -196,6 +197,7 @@ span {
     margin: 2rem 0 3rem;
 }
 
+/* service section */
 .services h2 {
     margin-bottom: 5rem;
 }
@@ -237,6 +239,7 @@ span {
     margin: 1rem 0 3rem;
 }
 
+/* Portfolio section */
 .portfolio {
     background: var(--second-bg-color);
 }
@@ -317,7 +320,7 @@ span {
     font-size: 2rem;
     color: var(--text-color2);
 }
-
+/*  Contact Section */
 .contact h2 {
     margin-bottom: 3rem;
 }
@@ -359,6 +362,7 @@ span {
     cursor: pointer;
 }
 
+/* Footer Section */
 .footer {
     display: flex;
     justify-content: space-between;
@@ -391,7 +395,7 @@ span {
     color: var(--second-bg-color);
 }
 
-
+/* Animations */
 /* BREAKPOINTS */
 @media (max-width: 1200px) {
     html {
@@ -524,18 +528,4 @@ span {
         margin-top: 2rem;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
