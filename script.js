@@ -7,7 +7,7 @@ menuIcon.onclick = () => {
     navbar.classList.toggle('active');
 };
 
-
+// Section For Active Links
 /*==================== scroll sections active link ====================*/
 let sections = document.querySelectorAll('section');
 let navLinks = document.querySelectorAll('header nav a');
@@ -26,6 +26,7 @@ window.onscroll = () => {
             });
         };
     });
+    // Section Fot Sticky Navbar
     /*==================== sticky navbar ====================*/
     let header = document.querySelector('header');
 
