@@ -26,8 +26,8 @@ window.onscroll = () => {
             });
         };
     });
-    // Section Fot Sticky Navbar
-    /*==================== sticky navbar ====================*/
+    // The Section Fot Sticky Navbar
+    /*==================== the sticky navbar ====================*/
     let header = document.querySelector('header');
 
     header.classList.toggle('sticky', window.scrollY > 100);
@@ -38,7 +38,7 @@ window.onscroll = () => {
 };
 
 
-/*==================== scroll reveal ====================*/
+/*==================== the scroll reveal ====================*/
 ScrollReveal({
     reset: true,
     distance: '80px',
@@ -52,7 +52,7 @@ ScrollReveal().reveal('.home-img, .services-container, .portfolio-box, .contact 
 ScrollReveal().reveal('.home-content h1, .about-img', { origin: 'left' }); 
 ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' }); 
 
-/*==================== typed js ====================*/
+/*==================== the typed js ====================*/
 const typed = new Typed('.multiple-text', {
     strings: ['Frontend Developer', 'Graphic Designer', 'Ui/Ux Designer'],
     typeSpeed: 100,
@@ -60,5 +60,7 @@ const typed = new Typed('.multiple-text', {
     backDelay: 1000,
     loop: true
 });
+
+// ======================= new section ====================
 
 // ====================== Footer Section =========================
